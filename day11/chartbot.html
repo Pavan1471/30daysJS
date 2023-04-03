@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="chartbot.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="a"></div>
+<br><br>
+<input id="msg" type="text">
+   <div id="sam"></div>
+    <br>
+
+    <div id="user"></div>
+
+   <button onclick="send()">Send</button>
+    
+
+
+    <script>
+
+
+       function send(){
+
+        
+var ele = document.getElementById("msg").value;
+          var s =document.getElementById("sam");
+          s.style.color="red";
+          s.style.padding="10px";
+          s.style.backgroundColor="grey";
+          s.style.borderRadius="15px";
+        
+        var element = document.createElement("p");
+        var textNode = document.createTextNode(ele);
+       
+        element.appendChild(textNode);
+       document.getElementById("sam").appendChild(textNode);
+
+       
+
+       ele.value="";
+
+        if(ele=="hello"){
+        var element = document.createElement("h6");
+        var textNode = document.createTextNode("hello how can i help you");
+        element.appendChild(textNode);
+        document.getElementById("sam").appendChild(textNode);
+        }
+
+        }
+
+
+    </script>
+</body>
+</html>

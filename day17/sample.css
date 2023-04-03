@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 48px;
+    padding-bottom: 100%;
+    margin-top: 43px;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+h1{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+}
+
+#email{
+    
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+
+   
+
+
+}
+.google{
+    margin-top: -120px;
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    text-align: justify;
+    
+    box-shadow: 3px 3px 3px 0px #b8a6b0;
+
+}
+.google2{
+    margin-top: -110px;
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    text-align: justify;
+    box-shadow: 3px 3px 3px 0px #b8a6b0;
+
+}
+.google2 img{
+    width: 30px;
+}
+h4{
+    margin-top: 5px;
+}
+.google img{
+    width: 30px;
+}
+body{
+    background-color: gold;
+
+}
+#forgot{
+    margin-top: 10px;
+}
+
+#password{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    
+
+}
+
+
+
+button{
+    border-radius: 20px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+}

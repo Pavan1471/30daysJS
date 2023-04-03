@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color:whitesmoke;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px #b8a6b0;
+
+}
+#add{
+    padding:10px;
+    border-radius: 15px;
+    border: none;
+    background-color: pink;
+}
+.quantity{
+    margin-top: 7px;
+}
+.remove{
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+}
+
+.quantity button{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+*{
+    margin: 0px;
+}

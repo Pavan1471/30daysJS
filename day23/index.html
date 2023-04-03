@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        Chatbot
+    </center>
+    <br><br>
+    <div id="bot"> 
+        
+    </div>
+    <div id="user"></div>
+
+    <input id="msg" type="text">
+    <button onclick="send()">Send</button>
+
+
+
+    <style>
+        .message{
+            background-color: pink;
+            margin-right: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        .message2{
+            background-color: pink;
+            margin-left: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        center{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        input{
+            position: absolute;
+            top: 90%;
+            left: 10%;
+            width: 400px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: aquamarine;
+            border: none;
+        }
+        button{
+            position: absolute;
+            top: 91%;
+            color: white;
+            background-color: black;
+            left: 80%;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 50%;
+        }
+
+    </style>
+
+    <script>
+
+        function send(){
+            document.getElementById("bot").innerHTML+=`
+            <div class="message">
+
+            ${document.getElementById("msg").value}
+</div>
+
+<br>
+        `
+        if(document.getElementById("msg").value=="hello"){
+
+            document.getElementById("user").innerHTML="hii"
+            
+
+            
+        }
+
+        }
+        
+    </script>
+</body>
+</html>

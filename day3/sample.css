@@ -1,0 +1,32 @@
+body{
+    background-color:lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+ }
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+
+#btn{
+  
+   background-color: pink;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+#usdt{
+    border-radius: 5px;
+}
+#aa{
+background-color: pink;
+border: none;
+padding: 10px;
+border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
