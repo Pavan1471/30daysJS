@@ -1,6 +1,6 @@
 
 
-var data =0;
+var data =0
 document.getElementById("quantity").innerText=data;
     
 function decrement(){
